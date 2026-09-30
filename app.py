@@ -27,7 +27,8 @@ def summarize(scores):
     return "UNCLEAR" if uncertain else top["label"].upper(), ordered
 
 st.caption("CS4106 · SESSION 5 · STREAMLIT + HUGGING FACE")
-st.title("💬 Sentiment Studio")
+st.title("Sentiment Studio - Muhammad Salman (B04-0923-00021) | Rafay Khan (B02-0923-000046)")
+st.caption("Live app: https://huggingface.co/spaces/002Hades/sentiment-studio")
 st.write("Explore the tone of an English message: positive, neutral or negative.")
 with st.sidebar:
     st.header("About this app")
